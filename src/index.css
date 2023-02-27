@@ -98,11 +98,25 @@ p {
 	margin-bottom: 1.25rem;
 	color: var(--clr-grey-5);
 }
+.theNavbar {
+	display: flex;
+	justify-content: space-between;
+}
+.navbarSection {
+	padding: 30px;
+	background-color: #000;
+	color: #c59d5f;
+}
 .Navlinks {
 	display: flex;
 	gap: 20px;
 	cursor: pointer;
 	font-weight: 700;
+}
+.contacts {
+	display: flex;
+	gap: 30px;
+	cursor: pointer;
 }
 @media screen and (min-width: 800px) {
 	h1 {
@@ -130,6 +144,10 @@ p {
 /*  global classes */
 
 /* section */
+
+.main {
+	background-color: #000;
+}
 .section {
 	width: 90vw;
 	margin: 0 auto;

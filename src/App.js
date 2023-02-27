@@ -19,16 +19,22 @@ function App() {
 	};
 	return (
 		<main>
-			<section className='menu section'>
-				<div className='theNavbar'>
-					<ul className='Navlinks'>
-						<li>Showcase</li>
-						<li>Discover</li>
-						<li>Talent</li>
-						<li>Jobs</li>
-						<li>Inspiration</li>
-					</ul>
-				</div>
+			<section className='menu-section'>
+				<section className='navbarSection'>
+					<div className='theNavbar'>
+						<ul className='Navlinks'>
+							<li>Showcase</li>
+							<li>Discover</li>
+							<li>Talent</li>
+							<li>Jobs</li>
+							<li>Inspiration</li>
+						</ul>
+						<ul className='contacts'>
+							<li>Sign in</li>
+							<li>Sign up</li>
+						</ul>
+					</div>
+				</section>
 				<div className='title'>
 					<h2>Showcase</h2>
 					<div className='underline'></div>

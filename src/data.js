@@ -42,6 +42,14 @@ const menu = [
 		desc: `No list of Nigerian foods can be complete without a mention of Jollof rice. It's a party dish brought out at celebrations, a signature regional dish, and the recipe with which many West African communities — and countries `,
 	},
 	{
+		id: 5,
+		title: "jollof rice",
+		category: "design",
+		price: 2500,
+		img: [<img src={hers} alt='hers' />],
+		desc: `No list of Nigerian foods can be complete without a mention of Jollof rice. It's a party dish brought out at celebrations, a signature regional dish, and the recipe with which many West African communities — and countries `,
+	},
+	{
 		id: 6,
 		title: "ofada rice",
 		category: "ux/ui",
